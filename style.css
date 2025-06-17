@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+
+.subject {
+  font-size: 24px;
+  margin: 15px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.subject:hover {
+  text-decoration: underline;
+}
+
+.topics {
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subject Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Subject Explorer</h1>
+
+  <div class="subject" onclick="toggleTopics('math-topics')">Mathematics</div>
+  <div id="math-topics" class="topics hidden">
+    <a href="math-algebra.html">Algebra</a>
+    <a href="math-geometry.html">Geometry</a>
+    <a href="math-calculus.html">Calculus</a>
+    <a href="math-trigonometry.html">Trigonometry</a>
+  </div>
+
+  <div class="subject" onclick="toggleTopics('science-topics')">Science</div>
+  <div id="science-topics" class="topics hidden">
+    <a href="science-physics.html">Physics</a>
+    <a href="science-chemistry.html">Chemistry</a>
+    <a href="science-biology.html">Biology</a>
+    <a href="science-astronomy.html">Astronomy</a>
+  </div>
+
+  <div class="subject" onclick="toggleTopics('history-topics')">History</div>
+  <div id="history-topics" class="topics hidden">
+    <a href="history-ancient.html">Ancient</a>
+    <a href="history-medieval.html">Medieval</a>
+    <a href="history-modern.html">Modern</a>
+    <a href="history-Worldwars.html">World Wars</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
